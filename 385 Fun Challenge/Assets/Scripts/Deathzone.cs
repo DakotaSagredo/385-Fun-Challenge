@@ -10,7 +10,7 @@ public class Deathzone : MonoBehaviour {
 	[SerializeField] private Transform respawnPoint;
 
 	// When player touches collider, teleport player to respawn point
-	void OnTriggerEnter(Collider col) {
+	void OnTriggerEnter2D(Collider2D col) {
 		player.transform.position = respawnPoint.transform.position;
 	}
 }
