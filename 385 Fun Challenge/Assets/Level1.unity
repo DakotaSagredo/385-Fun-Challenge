@@ -33683,6 +33683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
   direction: {x: 3, y: 0}
+  maxVolocity: 250
   relativeToRotation: 0
 --- !u!61 &1215296433
 BoxCollider2D:
