@@ -8,7 +8,7 @@ public class AutoMove : Physics2DObject
 	// These are the forces that will push the object every frame
 	// don't forget they can be negative too!
 	public Vector2 direction = new Vector2(1f, 0f);
-
+	public float maxVolocity = 2f;
 
 	//is the push relative or absolute to the world?
 	public bool relativeToRotation = true;
@@ -17,13 +17,12 @@ public class AutoMove : Physics2DObject
 	// FixedUpdate is called once per frame
 	void FixedUpdate ()
 	{
-		if(relativeToRotation)
-		{
-			rigidbody2D.AddRelativeForce(direction * 2f);
-		}
-		else
-		{
-			rigidbody2D.AddForce(direction * 2f);
+		if (rigidbody2D.velocity.sqrMagnitude < maxVolocity) {
+			if (relativeToRotation) {
+				rigidbody2D.AddRelativeForce (direction * 2f);
+			} else {
+				rigidbody2D.AddForce (direction * 2f);
+			}
 		}
 	}
 
