@@ -61,6 +61,7 @@
      <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\Enums.cs" />
      <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\InventoryResources.cs" />
      <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\Utils.cs" />
+     <Compile Include="Assets\FinsihLevel.cs" />
      <Compile Include="Assets\Scripts\Attributes\BulletAttribute.cs" />
      <Compile Include="Assets\Scripts\Attributes\CollectableAttribute.cs" />
      <Compile Include="Assets\Scripts\Attributes\DestroyForPointsAttribute.cs" />
@@ -93,6 +94,7 @@
      <Compile Include="Assets\Scripts\Movement\Push.cs" />
      <Compile Include="Assets\Scripts\Movement\Rotate.cs" />
      <Compile Include="Assets\Scripts\Movement\Wander.cs" />
+     <None Include="Assets\2D_Pixel_Art_Isometric_Blocks_Devils_Garage_v04\readme.txt" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
