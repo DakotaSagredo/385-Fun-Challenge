@@ -61,6 +61,8 @@
      <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\Enums.cs" />
      <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\InventoryResources.cs" />
      <Compile Include="Assets\_INTERNAL_\Scripts\Utilities\Utils.cs" />
+     <Compile Include="Assets\FinishLevel2.cs" />
+     <Compile Include="Assets\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Attributes\BulletAttribute.cs" />
      <Compile Include="Assets\Scripts\Attributes\CollectableAttribute.cs" />
      <Compile Include="Assets\Scripts\Attributes\DestroyForPointsAttribute.cs" />
@@ -93,6 +95,7 @@
      <Compile Include="Assets\Scripts\Movement\Push.cs" />
      <Compile Include="Assets\Scripts\Movement\Rotate.cs" />
      <Compile Include="Assets\Scripts\Movement\Wander.cs" />
+     <None Include="Assets\2D_Pixel_Art_Isometric_Blocks_Devils_Garage_v04\readme.txt" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -260,13 +263,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.25f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/Dakot/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Users/srobb/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/Dakot/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/srobb/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
- <HintPath>C:/Users/Dakot/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/srobb/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
